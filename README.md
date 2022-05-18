@@ -25,7 +25,8 @@ SmartAd provides BMO based a lightweight questionnaire served with every campaig
 First we will experiment with classical frequnetist techniques, and then we move on to Machine Learning based approaches.
 
 ## MLOps Design
-![mlops design](images/mlops.png)
+
+![mlops design](images/system%20diagram%20-%20Page%202.jpeg)
 
 ## Contributors
 
