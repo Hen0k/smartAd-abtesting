@@ -45,3 +45,16 @@ class Analysis:
     def get_shape(self, df: pd.DataFrame) -> None:
         row, col = df.shape
         print(f"The dataframe has {row} rows and {col} columns")
+    
+    def get_unique_counts(self, df: pd.DataFrame, 
+                        column: str=None, 
+                        all: bool=False) -> None:
+        if column:
+            columns = [column]
+        elif all:
+            columns = df.columns
+        else:
+            columns = CleanDataFrame.get_categorical_columns(df)
+        for column in columns:
+            uniques_count = df[column].unique().shape[0]
+            print(f"{column} has {uniques_count} unique entries")
