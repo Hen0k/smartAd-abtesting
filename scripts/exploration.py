@@ -41,3 +41,7 @@ class Analysis:
         cols_missing_val_count
 
         return cols_missing_val_count, cols_missing_val
+    
+    def get_shape(self, df: pd.DataFrame) -> None:
+        row, col = df.shape
+        print(f"The dataframe has {row} rows and {col} columns")
