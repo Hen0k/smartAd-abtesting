@@ -22,7 +22,21 @@ SmartAd provides BMO based a lightweight questionnaire served with every campaig
 
 ---
 
+## Methods Used
 First we will experiment with classical frequnetist techniques, and then we move on to Machine Learning based approaches.
+
+Two types of A/B testing were used in the first phase of analysis.
+
+    Classic A/B testing
+    Sequential A/B testing
+
+In the second phase A/B testing was made using machine learning. For the machien learning, we use four algorithms.
+
+    Logistic Regression
+    Desicion Tree
+    Random Forest
+    XGBoost
+
 
 ## MLOps Design
 
